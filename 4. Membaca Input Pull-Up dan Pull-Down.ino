@@ -1,5 +1,5 @@
-const int pinPullUp = A0;   
-const int pinPullDown = A1; 
+const int pinPullUp = 2;   
+const int pinPullDown = 3; 
 
 void setup() {
   Serial.begin(9600);
